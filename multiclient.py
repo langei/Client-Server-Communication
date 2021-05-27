@@ -1,7 +1,7 @@
 import socket   #Imports socket library
 
 clientSocket = socket.socket()  #Declares a socket object
-host = '192.168.2.16'           #Server ID (IP of PC/server)
+host = ''                       #Server ID (IP of PC/server)
 port = 12345                    #Port number
 
 
