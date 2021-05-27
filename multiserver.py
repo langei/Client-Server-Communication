@@ -3,7 +3,7 @@ from _thread import *
 import time
 
 serverSocket = socket.socket()  #Creates a socket object
-host = '192.168.2.16'           #Server ID (IP of PC/Server)
+host = ''           #Server ID (IP of PC/Server)
 port = 12345                    #Port number
 myClients = []                  #Declares an empty list to store each client object connected
 
